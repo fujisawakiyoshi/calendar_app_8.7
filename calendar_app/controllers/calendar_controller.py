@@ -1,8 +1,10 @@
-from datetime import datetime # datetimeをインポート済み
-import calendar # calendarモジュールをインポート済み
-from services.holiday_service import get_holidays_for_year # インポート済み
-from services.event_manager import load_events # インポート済み
-from services.event_manager import add_event # add_event関数をインポート
+#controllers/calendar_controller.py
+
+from datetime import datetime 
+import calendar 
+from services.holiday_service import get_holidays_for_year 
+from services.event_manager import load_events 
+from services.event_manager import add_event 
 from services.weather_service import get_weather_for_today
 
 
